@@ -9,7 +9,7 @@ export default function Hero() {
         <div className="relative flex w-full h-[calc(100vh-6rem)] items-center justify-between select-none overflow-hidden">
             {/* Background */}
             <Image
-                src="background-hero.svg"
+                src="hero_bg.svg"
                 alt="Hero background"
                 fill
                 priority
