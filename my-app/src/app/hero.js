@@ -6,15 +6,14 @@ import { motion } from "framer-motion";
 
 export default function Hero() {
     return (
-        <div className="relative flex w-full h-[calc(100vh-6rem)] items-center justify-between select-none overflow-hidden">
+        <div className="relative flex w-full h-[100svh] w-[100%] items-center justify-between select-none overflow-hidden">
             {/* Background */}
             <Image
                 src="hero_bg.svg"
                 alt="Hero background"
                 fill
                 priority
-                className="object-fill z-0 ml-[100px] border-none"
-                style={{ objectPosition: "60% center" }}
+                className="-mt-15"
             />
 
             {/* Levá část s textem */}
