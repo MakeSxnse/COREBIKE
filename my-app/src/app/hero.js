@@ -13,7 +13,7 @@ export default function Hero() {
                 alt="Hero background"
                 fill
                 priority
-                className="object-fill z-0 ml-[100px]"
+                className="object-fill z-0 ml-[100px] border-none"
                 style={{ objectPosition: "60% center" }}
             />
 
